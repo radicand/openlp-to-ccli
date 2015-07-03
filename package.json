@@ -1,0 +1,26 @@
+{
+  "name": "openlp-to-ccli",
+  "version": "1.0.0",
+  "description": "Convert OpenLP song database to CCLI-style text files",
+  "main": "openlp-to-ccli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radicand/openlp-to-ccli.git"
+  },
+  "author": "nick@radicand.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radicand/openlp-to-ccli/issues"
+  },
+  "homepage": "https://github.com/radicand/openlp-to-ccli#readme",
+  "dependencies": {
+    "async": "^1.3.0",
+    "lodash": "^3.10.0",
+    "sqlite3": "^3.0.8",
+    "underscore.string": "^3.1.1",
+    "xml2js": "^0.4.9"
+  }
+}
